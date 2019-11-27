@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "Risk level the user is willing to take on the investment portfolio",
+    "name": "RiskLevel",
+    "version": "1",
+    "enumerationValues": [
+      {
+        "value": "High",
+        "synonyms": [
+          "High"
+        ]
+      },
+      {
+        "value": "Very Low",
+        "synonyms": [
+          "Very Low"
+        ]
+      },
+      {
+        "value": "Low",
+        "synonyms": [
+          "Low"
+        ]
+      },
+      {
+        "value": "Medium",
+        "synonyms": [
+          "Medium"
+        ]
+      },
+      {
+        "value": "Very High",
+        "synonyms": [
+          "Very High"
+        ]
+      },
+      {
+        "value": "None",
+        "synonyms": [
+          "None"
+        ]
+      }
+    ],
+    "valueSelectionStrategy": "TOP_RESOLUTION"
+  }
+}
